@@ -6,7 +6,6 @@ package samples.demo;
 
 public class Location {
 
-	private String jalan;
 	private String state;
 	private String country;
 	
@@ -30,16 +29,5 @@ public class Location {
 	public String getCountry()
 	{
 		return country;
-	}
-	
-	//setter and getter for jalan
-	public void setJalan(String jalan)
-	{
-		this.jalan=jalan;
-	}
-
-	public String getJalan()
-	{
-		return jalan;
 	}
 }
